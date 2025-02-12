@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+}
+.hidden{
+    display: none;
+}
+.bg-container{
+    height: 100vh;
+    color: white;
+    backdrop-filter: blur(10px);
+    /*background: rgba(0, 0, 0, 0.3);  Dark overlay */
+    background-color: #1E1E2F;
+    z-index: 1;
+}
+.bg-top{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 55px;
+}
+.bg-about-game{
+    padding-left: 115vh;
+}
+.bg-top button{
+    margin-left: 7vh;
+    margin-top: 4vh;
+    width: 14vw;
+    height: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.2em;
+}
+.bg-top h3{
+    margin-top: 7vh;
+    margin-right: 8vh;
+    font-size: 2em;
+}
+.guess{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
+}
+.total-down{
+    display: flex;
+    flex: column;
+}
+.guess-manipulates{
+    margin-left: 2vh;
+    font-size: 2.2em;
+    margin-top: 15vh;
+}
+.inputs{
+    margin-top: 15vh;
+    margin-left: 10vh;
+    padding: 5vh;
+}
+.text-input{
+    width: 14vw;
+    height: 8vh;
+    font-size: 2.5em;
+}
+.inputs button{
+    margin-top: 2vh;
+    width: 10vw;
+    height: 7vh;
+    margin-left: 4vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+.bg-about-game{
+    text-decoration: none;
+    color: white;
+    margin-top: 5vh;
+    margin-right: 10vh;
+    font-size: 2em;
+}
+.bg-about-game:hover{
+    color: black;
+}
+.inner-totals{
+    margin-left: 84vh;
+    font-size: 1em;
+}
+.check{
+    margin-top: 3vh;
+    margin-left: 2.5vh;
+    width: 12vw;
+    height: 6vh;
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+.about{
+    height: 57vh;
+    width: 50vw;
+    background-color: white;
+    z-index:10;
+    margin-left: 50vh;
+    margin-top:5vh;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    
+}
+.close-about{
+    margin-top: 1vh;
+    float: right;
+    width: 6vw;
+    height: 6vh;
+    background-color: white;
+    font-size: 2.2em;
+    border: 0;
+}
+.about-head{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding-top: 4vh;
+    padding-left: 9vh;
+}
+.about-head-data{
+    font-size: 1.3em;
+    padding-left:4vh;
+    padding-top: 2vh;
+}
+.scores{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bg-score{
+    margin-left: 35vh;
+}
+.bg-highscore{
+    margin-right: 40vh;
+}
+.totals{
+    margin-top: 10vh;
+}
